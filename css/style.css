@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: #9FC5F8;
+    padding: 20px 0;
+}
+
+/*medidas estandar: 1280HD 1928HD*/
+nav {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex: 1;
+    justify-content: space-between;
+}
+
+nav h1 {
+    flex: 2;
+}
+
+h1, nav a {
+    color:white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+.san-jose {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 20px 0;
+}
+
+.target {
+    display: flex;
+    width: 1000px;
+    margin: 10px auto;
+    gap: 5%;
+}
+
+.card {
+    flex: 1;
+    height: 300px;
+    background-color: lightgray;
+    display: flex;
+    text-align: center;
+    border-radius: 3%;
+    flex-direction: column;
+    justify-content: space-around;  
+    align-items: center; 
+}
+
+.target img {
+    width: 140px;
+    background-color: white;
+    border: white;
+    border-radius: 50%;
+}
+
+.temperature {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.up {
+    color: red;
+    font-weight: bolder;
+}
+
+.low {
+    color: blue;
+    font-weight: bolder;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.alert {
+    width: 1000px;
+    border: 3px solid black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alert img {
+    width: 60px;
+    margin: 20px;
+}
+
+.cookie {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.acepto {
+    margin: 0 10px;
+    background-color: #9FC5F8;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px black;
+    padding: 5px;
+    font-weight: bolder;
+}
